@@ -1,0 +1,7 @@
+DATA_PR1	 SEGMENT byte
+DATA_PR1	 ENDS
+
+CODE_PR1	 SEGMENT
+CODE_PR1	 ENDS
+		 	 
+Parser: Error( Constant expected, but 'EQ' found!)(row: 2, column : 15)

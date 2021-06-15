@@ -1,0 +1,17 @@
+DATA_PR1	 SEGMENT byte
+  TEST		 17 DUP (?)
+DATA_PR1	 ENDS
+
+CODE_PR1	 SEGMENT
+	 MOV	 ECX,0
+	 MOV	 EAX,16
+L1?:
+	 MOV	 TEST[ECX * 2],20
+	 ADD	 ECX,1
+	 CMP	 ECX, 16
+	 JLE	 L1?
+CODE_PR1	 ENDS
+		 	 
+Lexer: Error( Undefined symbol was found:^$^)(row: 2, column: 38)
+Parser: Error( Function identifier expected, but '=' found!)(row: 2, column : 39)
+Code Generator: Error( Name of math function 'TEST' at [R:2][C:23] must be unique!)

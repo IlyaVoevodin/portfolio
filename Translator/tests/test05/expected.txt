@@ -1,0 +1,2 @@
+Lexer: Error( Undefined symbol was found:^^^)(row: 3, column: 7)
+Parser: Error( Symbol '.' expected, but 'Nothing' found! )(row: 5, column: 4)

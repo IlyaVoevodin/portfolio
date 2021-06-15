@@ -1,0 +1,8 @@
+DATA_PR1	 SEGMENT byte
+DATA_PR1	 ENDS
+
+CODE_PR1	 SEGMENT
+CODE_PR1	 ENDS
+		 	 
+Lexer: Error( Undefined symbol was found:^*^)(row: 1, column: 12)
+Parser: Error( Reserved word 'DEFFUNC' expected (or empty), but 'F1' found!)(row: 2, column : 1)

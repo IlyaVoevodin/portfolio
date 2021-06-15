@@ -1,0 +1,8 @@
+DATA_PR1	 SEGMENT byte
+DATA_PR1	 ENDS
+
+CODE_PR1	 SEGMENT
+BEGIN:
+CODE_PR1	 ENDS
+		 END	 BEGIN
+Code Generator: Error( Value of second index '0' at [R:2][C:17] can't be less then 1!)

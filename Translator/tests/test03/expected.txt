@@ -1,0 +1,2 @@
+Lexer: Error( Undefined symbol was found:^$^)(row: 1, column: 4)
+Parser: Error( Reserved word 'PROGRAM' expected, but 'PRO' found!)(row: 1, column : 1)

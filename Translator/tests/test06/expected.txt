@@ -1,0 +1,2 @@
+Lexer: Error( You must close comment! )(row: 1, column: 13)
+Parser: Error( Program identifier expected, but '123' found!)(row: 1, column : 9)

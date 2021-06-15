@@ -1,0 +1,31 @@
+DATA_PR1	 SEGMENT byte
+  F1		 17 DUP (?)
+  F2		 457 DUP (?)
+  DFT		 97 DUP (?)
+DATA_PR1	 ENDS
+
+CODE_PR1	 SEGMENT
+	 MOV	 ECX,0
+	 MOV	 EAX,16
+L1?:
+	 MOV	 F1[ECX * 2],20
+	 ADD	 ECX,1
+	 CMP	 ECX, 16
+	 JLE	 L1?
+	 MOV	 ECX,3
+	 MOV	 EAX,456
+L2?:
+	 MOV	 F2[ECX * 2],34
+	 ADD	 ECX,1
+	 CMP	 ECX, 456
+	 JLE	 L2?
+	 MOV	 ECX,10
+	 MOV	 EAX,96
+L3?:
+	 MOV	 DFT[ECX * 2],58
+	 ADD	 ECX,1
+	 CMP	 ECX, 96
+	 JLE	 L3?
+BEGIN:
+CODE_PR1	 ENDS
+		 END	 BEGIN

@@ -1,0 +1,9 @@
+DATA_PR1	 SEGMENT byte
+  F1		 17 DUP (?)
+DATA_PR1	 ENDS
+
+CODE_PR1	 SEGMENT
+BEGIN:
+CODE_PR1	 ENDS
+		 END	 BEGIN
+Code Generator: Error( First index '30' at [R:2][C:15] cant't be greater then second index)

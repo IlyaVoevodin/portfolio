@@ -1,0 +1,5 @@
+PROGRAM PR1;
+DEFFUNC F1=10\30,16;
+BEGIN
+(*egeg%$#*)
+END.
