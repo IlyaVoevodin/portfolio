@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Voevodin Ilya">
+    <meta name="generator" content="Hugo 0.80.0">
+    <title>VBlog</title>
+    <!-- Icon -->
+    <link rel="shortcut icon" href="../register/logo/favicon (1).ico" type="image/x-icon">
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    
+    <!-- Custom styles for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="fullpost.css" rel="stylesheet">
+  </head>
+ <body>
+    
+  <div class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+    <header class="blog-header py-3">
+      <div class="row flex-nowrap justify-content-between align-items-center">
+        <div class="col-4 text-center">
+          <a class="blog-header-logo text-dark" href="../info/info.html">VoevodinBlog</a>
+        </div>
+        <div class="col-4 d-flex justify-content-end align-items-center">
+          <a class="btn btn-sm btn-outline-primary" href="../blog/blog.html">Home</a>
+          <a class="btn btn-sm btn-outline-info" href="../profile/profile.html">Profile</a>
+          <a class="btn btn-sm btn-outline-secondary" href="../sign-in/sign-in.html">Log out</a>
+        </div>
+      </div>
+    </header>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+        <div class="position-sticky pt-3">
+          <ul class="nav flex-column">
+            <h1 class="times new roman">Account info</h1>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <span data-feather="Email"></span>
+                Email
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <span data-feather="Username"></span>
+                Username
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+
+    <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">  
+      <div class="row">
+        <div class="col-md-8">
+          <article class="blog-post">
+            <h2 class="blog-post-title">Sample blog post</h2>
+            <p class="blog-post-meta">January 1, 2014 by <a href="#">Mark</a></p>
+
+            <p>This blog post shows a few different types of content that’s supported and styled with Bootstrap. Basic typography, images, and code are all supported.</p>
+            <hr>
+            <p>Yeah, she dances to her own beat. Oh, no. You could've been the greatest. 'Cause, baby, <a href="#">you're a firework</a>. Maybe a reason why all the doors are closed. Open up your heart and just let it begin. So très chic, yeah, she's a classic.</p>
+            <blockquote>
+              <p>Bikinis, zucchinis, Martinis, no weenies. I know there will be sacrifice but that's the price. <strong>This is how we do it</strong>. I'm not sticking around to watch you go down. You think you're so rock and roll, but you're really just a joke. I know one spark will shock the world, yeah yeah. Can't replace you with a million rings.</p>
+            </blockquote>
+            <p>Trying to connect the dots, don't know what to tell my boss. Before you met me I was alright but things were kinda heavy. You just gotta ignite the light and let it shine. Glitter all over the room <em>pink flamingos</em> in the pool. </p>
+            
+          </article><!-- /.blog-post -->
+          <label for="content">Comment:</label>
+          <br><textarea rows="3" cols="80" id="content" name="content">
+          </textarea>
+          <br><button class="btn-outline-primary" type="submit"> Send </button>
+        </div>
+
+        <div class="col-md-4">
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search by title" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+          <h4 class="fst-italic">Sort search by:</h4>
+          <select class="form-select" id="sort-search" required>
+            <option value="">Sort by...</option>
+            <option>Title (A)->(Z)</option>
+            <option>Title (Z)->(A)</option>
+            <option>Date</option>
+          </select>
+
+          <select class="form-select" id="sort-author" required>
+            <option value="">Author...</option>
+            <option>Mark</option>
+            <option>Jacob</option>
+            <option>Chris</option>
+          </select>
+
+          <div class="p-4">
+            <h4 class="fst-italic">Contacts</h4>
+            <ol class="list-unstyled">
+              <li><a href="https://github.com/IlyaVoevodin/web1">GitHub</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Facebook</a></li>
+            </ol>
+          </div>
+        </div>
+
+      </div><!-- /.row -->
+
+    </main><!-- /.container -->
+  </div>
+
+  <footer class="blog-footer">
+    <p>Blog built on <a href="https://getbootstrap.com/">Bootstrap</a> by <a href="https://twitter.com/mdo">@VoevodinIlya</a>.</p>
+    <p>
+      <a href="#">Back to top</a>
+    </p>
+  </footer>
+    
+  </body>
+</html>
